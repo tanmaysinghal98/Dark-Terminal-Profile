@@ -10,7 +10,7 @@ echo "export CLICOLOR=1" >> ~/.bash_profile
 echo "export LSCOLORS=dxGxBxDxCxEgEdxbxgxcxd" >> ~/.bash_profile
 ```
 ```
-echo "export PS1='\[\e[1;32m\]\h:\[\e[m\]\[\e[1;34m\W\e[m\] \[\e[1;35m\]\u\[\e[m\]\[\e[1;33m\]\$ \[\e[m\]'" >> ~/.bash_profile
+echo "export PS1='\[\033[1;32m\]\h:\[\033[1;34m\]\W \[\033[1;35m\]\u\[\033[1;33m\]\$ \[\033[m\]'" >> ~/.bash_profile
 ```
 
 ## Installation Instructions
